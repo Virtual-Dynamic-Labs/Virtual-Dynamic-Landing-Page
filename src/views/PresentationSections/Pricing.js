@@ -1,5 +1,4 @@
 /*! Copyright 2022 Virtual Dynamic Labs *//*! Copyright 2022 Virtual Dynamic Labs */
-*/
 import React from "react";
 
 // reactstrap components
