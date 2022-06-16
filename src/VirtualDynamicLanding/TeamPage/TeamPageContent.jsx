@@ -35,7 +35,7 @@ const TeamPageContent = () => {
                                 style={{
                                     backgroundImage:
                                         "url(" +
-                                        require("assets/img/sendra-martorell.jpg").default +
+                                        require("assets/img/darken-night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png").default +
                                         ")",
                                 }}
                             >
@@ -107,7 +107,7 @@ const TeamPageContent = () => {
                                 style={{
                                     backgroundImage:
                                         "url(" +
-                                        require("assets/img/sendra-martorell.jpg").default +
+                                        require("assets/img/darken-night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png").default +
                                         ")",
                                 }}
                             >
@@ -178,7 +178,7 @@ const TeamPageContent = () => {
                                 style={{
                                     backgroundImage:
                                         "url(" +
-                                        require("assets/img/sendra-martorell.jpg").default +
+                                        require("assets/img/darken-night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png").default +
                                         ")",
                                 }}
                             >
@@ -252,7 +252,7 @@ const TeamPageContent = () => {
                                 style={{
                                     backgroundImage:
                                         "url(" +
-                                        require("assets/img/sendra-martorell.jpg").default +
+                                        require("assets/img/darken-night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png").default +
                                         ")",
                                 }}
                             >
@@ -324,7 +324,7 @@ const TeamPageContent = () => {
                                 style={{
                                     backgroundImage:
                                         "url(" +
-                                        require("assets/img/sendra-martorell.jpg").default +
+                                        require("assets/img/darken-night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png").default +
                                         ")",
                                 }}
                             >
@@ -395,7 +395,7 @@ const TeamPageContent = () => {
                                 style={{
                                     backgroundImage:
                                         "url(" +
-                                        require("assets/img/sendra-martorell.jpg").default +
+                                        require("assets/img/darken-night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png").default +
                                         ")",
                                 }}
                             >
