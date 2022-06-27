@@ -1,4 +1,5 @@
 import React from "react";
+import LandingPageNavbar from "../LandingPage/LandingPageNavbar";
 import {
     Badge,
     Button,
@@ -21,16 +22,13 @@ import {
 
 const TeamPageContent = () => {
     return (
-        <div className="cards">
+        <>
+        <LandingPageNavbar />
+        <div className="cards" style={{ paddingTop: "100px" }}>
             <Container>
-                <div className="title">
-                    <h3>
-                        <small>Team Members</small>
-                    </h3>
-                </div>
                 <Row>
                     <Col className="ml-auto mr-auto" lg="4" md="6">
-                        <Card className="card-profile profile-bg">
+                        <Card className="card-profile profile-bg" style={{height:"600px"}}>
                             <CardHeader
                                 style={{
                                     backgroundImage:
@@ -60,18 +58,6 @@ const TeamPageContent = () => {
                                 </p>
                             </CardBody>
                             <CardFooter>
-                                <div className="follow float-left">
-                                    <Button
-                                        className="btn-simple"
-                                        color="primary"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                        size="sm"
-                                    >
-                                        <i className="tim-icons icon-check-2 mr-1" />
-                                        Following
-                                    </Button>
-                                </div>
                                 <div className="d-inline float-right">
                                     <Button
                                         className="btn-icon btn-round"
@@ -102,7 +88,7 @@ const TeamPageContent = () => {
                         </Card>
                     </Col>
                     <Col className="ml-auto mr-auto" lg="4" md="6">
-                        <Card className="card-profile profile-bg">
+                        <Card className="card-profile profile-bg" style={{height:"600px"}}>
                             <CardHeader
                                 style={{
                                     backgroundImage:
@@ -131,18 +117,6 @@ const TeamPageContent = () => {
                                 </p>
                             </CardBody>
                             <CardFooter>
-                                <div className="follow float-left">
-                                    <Button
-                                        className="btn-simple"
-                                        color="primary"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                        size="sm"
-                                    >
-                                        <i className="tim-icons icon-check-2 mr-1" />
-                                        Following
-                                    </Button>
-                                </div>
                                 <div className="d-inline float-right">
                                     <Button
                                         className="btn-icon btn-round"
@@ -173,7 +147,7 @@ const TeamPageContent = () => {
                         </Card>
                     </Col>
                     <Col className="ml-auto mr-auto" lg="4" md="6">
-                        <Card className="card-profile profile-bg">
+                        <Card className="card-profile profile-bg" style={{height:"600px"}}>
                             <CardHeader
                                 style={{
                                     backgroundImage:
@@ -196,25 +170,13 @@ const TeamPageContent = () => {
                                 <CardTitle tag="h3">Allen Chang</CardTitle>
                                 <h6 className="category text-primary">Co-founder</h6>
                                 <p className="card-description">
-                                    Software engineer at Talium <br />
+                                    Software engineer at Tealium <br />
                                     Expertise in Smart Contract and P2E Game Design <br />
                                     OG NFTer and Enthusiastic Gamer <br />
                                     SDSU Alumni
                                 </p>
                             </CardBody>
                             <CardFooter>
-                                <div className="follow float-left">
-                                    <Button
-                                        className="btn-simple"
-                                        color="primary"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                        size="sm"
-                                    >
-                                        <i className="tim-icons icon-check-2 mr-1" />
-                                        Following
-                                    </Button>
-                                </div>
                                 <div className="d-inline float-right">
                                     <Button
                                         className="btn-icon btn-round"
@@ -247,7 +209,7 @@ const TeamPageContent = () => {
                 </Row>
                 <Row>
                     <Col className="ml-auto mr-auto" lg="4" md="6">
-                        <Card className="card-profile profile-bg">
+                        <Card className="card-profile profile-bg" style={{height:"600px"}}>
                             <CardHeader
                                 style={{
                                     backgroundImage:
@@ -277,18 +239,6 @@ const TeamPageContent = () => {
                                 </p>
                             </CardBody>
                             <CardFooter>
-                                <div className="follow float-left">
-                                    <Button
-                                        className="btn-simple"
-                                        color="primary"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                        size="sm"
-                                    >
-                                        <i className="tim-icons icon-check-2 mr-1" />
-                                        Following
-                                    </Button>
-                                </div>
                                 <div className="d-inline float-right">
                                     <Button
                                         className="btn-icon btn-round"
@@ -319,7 +269,7 @@ const TeamPageContent = () => {
                         </Card>
                     </Col>
                     <Col className="ml-auto mr-auto" lg="4" md="6">
-                        <Card className="card-profile profile-bg">
+                        <Card className="card-profile profile-bg" style={{height:"600px"}}>
                             <CardHeader
                                 style={{
                                     backgroundImage:
@@ -348,18 +298,6 @@ const TeamPageContent = () => {
                                 </p>
                             </CardBody>
                             <CardFooter>
-                                <div className="follow float-left">
-                                    <Button
-                                        className="btn-simple"
-                                        color="primary"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                        size="sm"
-                                    >
-                                        <i className="tim-icons icon-check-2 mr-1" />
-                                        Following
-                                    </Button>
-                                </div>
                                 <div className="d-inline float-right">
                                     <Button
                                         className="btn-icon btn-round"
@@ -390,7 +328,7 @@ const TeamPageContent = () => {
                         </Card>
                     </Col>
                     <Col className="ml-auto mr-auto" lg="4" md="6">
-                        <Card className="card-profile profile-bg">
+                        <Card className="card-profile profile-bg" style={{height:"600px"}}>
                             <CardHeader
                                 style={{
                                     backgroundImage:
@@ -419,18 +357,6 @@ const TeamPageContent = () => {
                                 </p>
                             </CardBody>
                             <CardFooter>
-                                <div className="follow float-left">
-                                    <Button
-                                        className="btn-simple"
-                                        color="primary"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                        size="sm"
-                                    >
-                                        <i className="tim-icons icon-check-2 mr-1" />
-                                        Following
-                                    </Button>
-                                </div>
                                 <div className="d-inline float-right">
                                     <Button
                                         className="btn-icon btn-round"
@@ -462,7 +388,7 @@ const TeamPageContent = () => {
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </div></>
     )
 }
 export default TeamPageContent;

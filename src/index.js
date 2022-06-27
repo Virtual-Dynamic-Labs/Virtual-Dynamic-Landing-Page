@@ -45,7 +45,9 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       {/* Index is Original */}
-      <Route path="/index" render={(props) => <Index {...props} />} />
+      {
+        /* <Route path="/index" render={(props) => <Index {...props} />} /> */
+      }
       {/* Landing is where we work on */}
       <Route path="/landing" render={() => <Landing /> } />
       {/* WP example: https://docs.ryukaitempest.com/who-we-are/meet-the-team */}
@@ -95,7 +97,7 @@ ReactDOM.render(
         render={(props) => <CheckoutPage {...props} />}
       />
       <Route path="/chat-page" render={(props) => <ChatPage {...props} />} />
-      <Redirect from="/" to="/presentation" />
+      <Redirect from = "/" to = "/landing" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
