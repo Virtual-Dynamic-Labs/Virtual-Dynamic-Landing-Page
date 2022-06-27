@@ -104,18 +104,13 @@ export default function LandingPageNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/landing" tag={Link}>
-                  About Us
+                <NavLink to="/team" tag={Link}>
+                  Team
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink to="/whitepaper" tag={Link}>
                   White Paper
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink to="/contact-us" tag={Link}>
-                  Contact Us
                 </NavLink>
               </NavItem>
             </Nav>
