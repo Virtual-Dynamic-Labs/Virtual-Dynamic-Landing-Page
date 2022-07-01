@@ -62,24 +62,24 @@ const TeamPageContent = () => {
                                     <Button
                                         className="btn-icon btn-round"
                                         color="twitter"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/MichaelZhou10"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="linkedin"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://www.linkedin.com/in/ziyao-zhou-57b41485/"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-linkedin" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="discord"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://discord.gg/6nPBkTxcGU"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-discord" />
                                     </Button>
@@ -121,24 +121,24 @@ const TeamPageContent = () => {
                                     <Button
                                         className="btn-icon btn-round"
                                         color="twitter"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/Liana_Lei_Manyi"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="linkedin"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://www.linkedin.com/in/manyi-liana-lei/"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-linkedin" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="discord"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://discord.gg/6nPBkTxcGU"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-discord" />
                                     </Button>
@@ -181,24 +181,24 @@ const TeamPageContent = () => {
                                     <Button
                                         className="btn-icon btn-round"
                                         color="twitter"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/Deztiny1742"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="linkedin"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://www.linkedin.com/in/sheng-yu-chang-67a442186/"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-linkedin" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="discord"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://discord.gg/6nPBkTxcGU"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-discord" />
                                     </Button>
@@ -243,24 +243,24 @@ const TeamPageContent = () => {
                                     <Button
                                         className="btn-icon btn-round"
                                         color="twitter"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/vincent8540"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
-                                    <Button
+                                    {/* <Button
                                         className="btn-icon btn-round ml-1"
                                         color="linkedin"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://www.linkedin.com/in/ziyao-zhou-57b41485/"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-linkedin" />
-                                    </Button>
+                                    </Button> */}
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="discord"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://discord.gg/6nPBkTxcGU"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-discord" />
                                     </Button>
@@ -302,24 +302,24 @@ const TeamPageContent = () => {
                                     <Button
                                         className="btn-icon btn-round"
                                         color="twitter"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/brandon_liu_bc"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="linkedin"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://www.linkedin.com/in/brandon-liu-33b45585/"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-linkedin" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="discord"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://discord.gg/6nPBkTxcGU"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-discord" />
                                     </Button>
@@ -358,27 +358,27 @@ const TeamPageContent = () => {
                             </CardBody>
                             <CardFooter>
                                 <div className="d-inline float-right">
-                                    <Button
+                                    {/* <Button
                                         className="btn-icon btn-round"
                                         color="twitter"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/MichaelZhou10"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-twitter" />
-                                    </Button>
+                                    </Button> */}
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="linkedin"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://www.linkedin.com/in/wadekuo/"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-linkedin" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="discord"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://discord.gg/6nPBkTxcGU"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-discord" />
                                     </Button>

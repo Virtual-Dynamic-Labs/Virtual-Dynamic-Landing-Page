@@ -19,7 +19,7 @@ const NavBarSocial = () => (
   <Nav className="nav navbar-right" navbar>
     <NavItem>
       <NavLink
-        href="https://twitter.com/CreativeTim"
+        href="https://twitter.com/virtualdynlabs"
         target="_blank"
       >
         <i className="fab fa-twitter" />
@@ -27,18 +27,10 @@ const NavBarSocial = () => (
     </NavItem>
     <NavItem>
       <NavLink
-        href="https://www.facebook.com/CreativeTim"
+        href="https://discord.gg/6nPBkTxcGU"
         target="_blank"
       >
-        <i className="fab fa-facebook-square" />
-      </NavLink>
-    </NavItem>
-    <NavItem>
-      <NavLink
-        href="https://www.instagram.com/CreativeTimOfficial"
-        target="_blank"
-      >
-        <i className="fab fa-instagram" />
+        <i className="fab fa-discord" />
       </NavLink>
     </NavItem>
   </Nav>
