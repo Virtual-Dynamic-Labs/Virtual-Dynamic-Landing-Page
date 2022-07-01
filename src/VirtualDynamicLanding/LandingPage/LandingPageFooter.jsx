@@ -23,7 +23,7 @@ export default function LandingPageFooter() {
                             <Button
                                 className="btn-icon btn-neutral btn-round btn-simple"
                                 color="default"
-                                href="https://twitter.com/creativetim"
+                                href="https://twitter.com/virtualdynlabs"
                                 id="tooltip39661217"
                                 target="_blank"
                             >
@@ -32,7 +32,7 @@ export default function LandingPageFooter() {
                             <UncontrolledTooltip delay={0} target="tooltip39661217">
                                 Follow us
                             </UncontrolledTooltip>
-                            <Button
+                            {/* <Button
                                 className="btn-icon btn-neutral btn-round btn-simple ml-1"
                                 color="default"
                                 href="https://www.facebook.com/creativetim"
@@ -43,18 +43,18 @@ export default function LandingPageFooter() {
                             </Button>
                             <UncontrolledTooltip delay={0} target="tooltip206037619">
                                 Like us
-                            </UncontrolledTooltip>
+                            </UncontrolledTooltip> */}
                             <Button
                                 className="btn-icon btn-neutral btn-round btn-simple ml-1"
                                 color="default"
-                                href="https://dribbble.com/creativetim"
+                                href="https://discord.gg/6nPBkTxcGU"
                                 id="tooltip750293512"
                                 target="_blank"
                             >
-                                <i className="fab fa-dribbble" />
+                                <i className="fab fa-discord" />
                             </Button>
                             <UncontrolledTooltip delay={0} target="tooltip750293512">
-                                Follow us
+                                Join us
                             </UncontrolledTooltip>
                         </div>
                     </Row>
