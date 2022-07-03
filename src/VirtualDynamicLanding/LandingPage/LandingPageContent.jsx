@@ -13,12 +13,13 @@ const LandingPageContent = () => {
       <Row className="align-items-center text-left">
         <Col lg="6" xs="12">
           <h1 className="title">
-            Virtual Dynamic Labs <br />
-            <strong style={{ color: "#F77E21" }}>Metaverse As A Service</strong>
+           <strong style={{ fontSize: "40px" }}>Virtual Dynamic Labs</strong><br />
+            <strong style={{ color: "#F77E21" }}>Metaverse as a Service</strong><br />
           </h1>
           <p className="description">
-            Virtual Dynamic SDK is a set of tools for metaverse content creator to deploy their 3D virtual assets into multiple Metaverse games with a simple process.
-            The SDK can also provide cross verse functionalities to these 3D virtual items and create a real decentralized metaverse.
+          Virtual Dynamic SDK is a set of tools deveoped for our beloved metaverse content creators to deploy their 3D virtual assets into 
+          the Open Metaverse games.The SDK and its MaaS enable the cross verse functionalities of all the virtual items and build a real 
+          decentralized Open Metaverse.
           </p>
           {/* <Row className="row-input">
             <Col className="mt-1" sm="8" xs="12">

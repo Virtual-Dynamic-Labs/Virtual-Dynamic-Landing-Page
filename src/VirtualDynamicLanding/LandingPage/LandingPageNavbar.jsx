@@ -13,7 +13,7 @@ import {
   Row,
   Col,
 } from "reactstrap";
-import logo from './Images/logo.png';
+import logo from './Images/logo1.png';
 
 const NavBarSocial = () => (
   <Nav className="nav navbar-right" navbar>
