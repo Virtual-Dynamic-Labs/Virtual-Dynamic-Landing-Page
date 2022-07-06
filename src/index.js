@@ -48,12 +48,12 @@ ReactDOM.render(
       {
         /* <Route path="/index" render={(props) => <Index {...props} />} /> */
       }
-      {/* Landing is where we work on */}
-      <Route path="/landing" render={() => <Landing /> } />
       {/* WP example: https://docs.ryukaitempest.com/who-we-are/meet-the-team */}
       <Route path="/whitepaper" render={() => <WhitePaper /> } />
       <Route path="/team" render={() => <TeamPageContent /> } />
-      <Route
+      <Route path = "/" render = {() => <Landing />} />
+      <Route path = "/index" render = {() => <Landing />} />
+      {/* <Route
         path="/presentation"
         render={(props) => <Presentation {...props} />}
       />
@@ -96,8 +96,13 @@ ReactDOM.render(
         path="/checkout-page"
         render={(props) => <CheckoutPage {...props} />}
       />
-      <Route path="/chat-page" render={(props) => <ChatPage {...props} />} />
-      <Redirect from = "/" to = "/landing" />
+      < Route path = "/chat-page"
+      render = {
+          (props) => < ChatPage {
+            ...props
+          }
+          />} / > */}
+      {/* Landing is where we work on */}
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
