@@ -67,7 +67,7 @@ export default function LandingPageNavbar() {
               <span className="navbar-toggler-bar bar2" />
               <span className="navbar-toggler-bar bar3" />
             </button>
-            <NavbarBrand to="/landing" tag={Link} id="tooltip6619950104">
+            <NavbarBrand to="/index" tag={Link} id="tooltip6619950104">
               <div className="d-flex align-items-center">
                 <img src={logo} width="50px" height="50px" style={{ borderRadius: "25px", marginRight: "8px" }} />
                 <div style={{ fontSize: "22px" }}>Virtual Dynamic Labs</div>
@@ -91,7 +91,7 @@ export default function LandingPageNavbar() {
             </div>
             <Nav className="mx-auto" navbar>
               <NavItem className="active">
-                <NavLink to="/landing" tag={Link}>
+                <NavLink to="/index" tag={Link}>
                   Home
                 </NavLink>
               </NavItem>
