@@ -23,7 +23,7 @@ import TeamPageContent from "VirtualDynamicLanding/TeamPage/TeamPageContent";
 //   Row,
 //   Col,
 // } from "reactstrap";
-import background from "./Images/metaverse.png";
+import background from "./Images/metaverse.jpg";
 
 export default function Landing() {
   const wrapper = React.useRef(null);

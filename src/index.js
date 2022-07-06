@@ -37,7 +37,7 @@ import CheckoutPage from "views/examples/CheckoutPage.js";
 import ChatPage from "views/examples/ChatPage.js";
 
 import Landing from "./VirtualDynamicLanding/LandingPage/Landing";
-import WhitePaper from "./VirtualDynamicLanding/WhitePaper";
+import WhitePaper from "./VirtualDynamicLanding/WhitePaper/WhitePaper";
 import TeamPageContent from "./VirtualDynamicLanding/TeamPage/TeamPageContent";
 
  
@@ -45,13 +45,15 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       {/* Index is Original */}
-      <Route path="/index" render={(props) => <Index {...props} />} />
-      {/* Landing is where we work on */}
-      <Route path="/landing" render={() => <Landing /> } />
+      {
+        /* <Route path="/index" render={(props) => <Index {...props} />} /> */
+      }
       {/* WP example: https://docs.ryukaitempest.com/who-we-are/meet-the-team */}
       <Route path="/whitepaper" render={() => <WhitePaper /> } />
       <Route path="/team" render={() => <TeamPageContent /> } />
-      <Route
+      <Route path = "/" render = {() => <Landing />} />
+      <Route path = "/index" render = {() => <Landing />} />
+      {/* <Route
         path="/presentation"
         render={(props) => <Presentation {...props} />}
       />
@@ -94,8 +96,13 @@ ReactDOM.render(
         path="/checkout-page"
         render={(props) => <CheckoutPage {...props} />}
       />
-      <Route path="/chat-page" render={(props) => <ChatPage {...props} />} />
-      <Redirect from="/" to="/presentation" />
+      < Route path = "/chat-page"
+      render = {
+          (props) => < ChatPage {
+            ...props
+          }
+          />} / > */}
+      {/* Landing is where we work on */}
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")

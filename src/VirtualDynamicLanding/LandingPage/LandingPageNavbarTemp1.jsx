@@ -45,7 +45,7 @@ export default function LandingPageNavbar() {
       <Navbar className={"fixed-top " + navbarColor} expand="lg">
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand to="/landing" tag={Link} id="tooltip6619950104">
+            <NavbarBrand to="/index" tag={Link} id="tooltip6619950104">
               <span>Virtual Dynamic Labs</span>
             </NavbarBrand>
             <UncontrolledTooltip delay={0} target="tooltip6619950104">
@@ -169,7 +169,7 @@ export default function LandingPageNavbar() {
                     <i className="tim-icons icon-square-pin" />
                     Contact Us
                   </DropdownItem>
-                  <DropdownItem to="/landing-page" tag={Link}>
+                  <DropdownItem to="/index" tag={Link}>
                     <i className="tim-icons icon-paper" />
                     Landing Page
                   </DropdownItem>

@@ -13,13 +13,13 @@ import {
   Row,
   Col,
 } from "reactstrap";
-import logo from './Images/logo.png';
+import logo from './Images/logo1.png';
 
 const NavBarSocial = () => (
   <Nav className="nav navbar-right" navbar>
     <NavItem>
       <NavLink
-        href="https://twitter.com/CreativeTim"
+        href="https://twitter.com/virtualdynlabs"
         target="_blank"
       >
         <i className="fab fa-twitter" />
@@ -27,18 +27,10 @@ const NavBarSocial = () => (
     </NavItem>
     <NavItem>
       <NavLink
-        href="https://www.facebook.com/CreativeTim"
+        href="https://discord.gg/6nPBkTxcGU"
         target="_blank"
       >
-        <i className="fab fa-facebook-square" />
-      </NavLink>
-    </NavItem>
-    <NavItem>
-      <NavLink
-        href="https://www.instagram.com/CreativeTimOfficial"
-        target="_blank"
-      >
-        <i className="fab fa-instagram" />
+        <i className="fab fa-discord" />
       </NavLink>
     </NavItem>
   </Nav>
@@ -75,7 +67,7 @@ export default function LandingPageNavbar() {
               <span className="navbar-toggler-bar bar2" />
               <span className="navbar-toggler-bar bar3" />
             </button>
-            <NavbarBrand to="/landing" tag={Link} id="tooltip6619950104">
+            <NavbarBrand to="/index" tag={Link} id="tooltip6619950104">
               <div className="d-flex align-items-center">
                 <img src={logo} width="50px" height="50px" style={{ borderRadius: "25px", marginRight: "8px" }} />
                 <div style={{ fontSize: "22px" }}>Virtual Dynamic Labs</div>
@@ -99,23 +91,18 @@ export default function LandingPageNavbar() {
             </div>
             <Nav className="mx-auto" navbar>
               <NavItem className="active">
-                <NavLink to="/landing" tag={Link}>
+                <NavLink to="/index" tag={Link}>
                   Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/landing" tag={Link}>
-                  About Us
+                <NavLink to="/team" tag={Link}>
+                  Team
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink to="/whitepaper" tag={Link}>
                   White Paper
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink to="/contact-us" tag={Link}>
-                  Contact Us
                 </NavLink>
               </NavItem>
             </Nav>

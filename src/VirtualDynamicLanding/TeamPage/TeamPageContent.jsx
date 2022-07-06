@@ -1,19 +1,13 @@
 import React from "react";
+import LandingPageNavbar from "../LandingPage/LandingPageNavbar";
+import LandingPageFooter from "../LandingPage/LandingPageFooter";
 import {
-    Badge,
     Button,
     Card,
     CardHeader,
     CardBody,
     CardFooter,
     CardTitle,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    UncontrolledDropdown,
-    ListGroupItem,
-    ListGroup,
-    Table,
     Container,
     Row,
     Col,
@@ -21,16 +15,13 @@ import {
 
 const TeamPageContent = () => {
     return (
-        <div className="cards">
+        <>
+        <LandingPageNavbar />
+        <div className="cards" style={{ paddingTop: "100px" }}>
             <Container>
-                <div className="title">
-                    <h3>
-                        <small>Team Members</small>
-                    </h3>
-                </div>
                 <Row>
                     <Col className="ml-auto mr-auto" lg="4" md="6">
-                        <Card className="card-profile profile-bg">
+                        <Card className="card-profile profile-bg" style={{height:"600px"}}>
                             <CardHeader
                                 style={{
                                     backgroundImage:
@@ -60,40 +51,28 @@ const TeamPageContent = () => {
                                 </p>
                             </CardBody>
                             <CardFooter>
-                                <div className="follow float-left">
-                                    <Button
-                                        className="btn-simple"
-                                        color="primary"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                        size="sm"
-                                    >
-                                        <i className="tim-icons icon-check-2 mr-1" />
-                                        Following
-                                    </Button>
-                                </div>
                                 <div className="d-inline float-right">
                                     <Button
                                         className="btn-icon btn-round"
                                         color="twitter"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/MichaelZhou10"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="linkedin"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://www.linkedin.com/in/ziyao-zhou-57b41485/"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-linkedin" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="discord"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://discord.gg/6nPBkTxcGU"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-discord" />
                                     </Button>
@@ -102,7 +81,7 @@ const TeamPageContent = () => {
                         </Card>
                     </Col>
                     <Col className="ml-auto mr-auto" lg="4" md="6">
-                        <Card className="card-profile profile-bg">
+                        <Card className="card-profile profile-bg" style={{height:"600px"}}>
                             <CardHeader
                                 style={{
                                     backgroundImage:
@@ -131,40 +110,28 @@ const TeamPageContent = () => {
                                 </p>
                             </CardBody>
                             <CardFooter>
-                                <div className="follow float-left">
-                                    <Button
-                                        className="btn-simple"
-                                        color="primary"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                        size="sm"
-                                    >
-                                        <i className="tim-icons icon-check-2 mr-1" />
-                                        Following
-                                    </Button>
-                                </div>
                                 <div className="d-inline float-right">
                                     <Button
                                         className="btn-icon btn-round"
                                         color="twitter"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/Liana_Lei_Manyi"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="linkedin"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://www.linkedin.com/in/manyi-liana-lei/"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-linkedin" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="discord"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://discord.gg/6nPBkTxcGU"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-discord" />
                                     </Button>
@@ -173,7 +140,7 @@ const TeamPageContent = () => {
                         </Card>
                     </Col>
                     <Col className="ml-auto mr-auto" lg="4" md="6">
-                        <Card className="card-profile profile-bg">
+                        <Card className="card-profile profile-bg" style={{height:"600px"}}>
                             <CardHeader
                                 style={{
                                     backgroundImage:
@@ -196,47 +163,35 @@ const TeamPageContent = () => {
                                 <CardTitle tag="h3">Allen Chang</CardTitle>
                                 <h6 className="category text-primary">Co-founder</h6>
                                 <p className="card-description">
-                                    Software engineer at Talium <br />
+                                    Software engineer at Tealium <br />
                                     Expertise in Smart Contract and P2E Game Design <br />
                                     OG NFTer and Enthusiastic Gamer <br />
                                     SDSU Alumni
                                 </p>
                             </CardBody>
                             <CardFooter>
-                                <div className="follow float-left">
-                                    <Button
-                                        className="btn-simple"
-                                        color="primary"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                        size="sm"
-                                    >
-                                        <i className="tim-icons icon-check-2 mr-1" />
-                                        Following
-                                    </Button>
-                                </div>
                                 <div className="d-inline float-right">
                                     <Button
                                         className="btn-icon btn-round"
                                         color="twitter"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/Deztiny1742"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="linkedin"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://www.linkedin.com/in/sheng-yu-chang-67a442186/"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-linkedin" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="discord"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://discord.gg/6nPBkTxcGU"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-discord" />
                                     </Button>
@@ -247,7 +202,7 @@ const TeamPageContent = () => {
                 </Row>
                 <Row>
                     <Col className="ml-auto mr-auto" lg="4" md="6">
-                        <Card className="card-profile profile-bg">
+                        <Card className="card-profile profile-bg" style={{height:"600px"}}>
                             <CardHeader
                                 style={{
                                     backgroundImage:
@@ -277,40 +232,28 @@ const TeamPageContent = () => {
                                 </p>
                             </CardBody>
                             <CardFooter>
-                                <div className="follow float-left">
-                                    <Button
-                                        className="btn-simple"
-                                        color="primary"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                        size="sm"
-                                    >
-                                        <i className="tim-icons icon-check-2 mr-1" />
-                                        Following
-                                    </Button>
-                                </div>
                                 <div className="d-inline float-right">
                                     <Button
                                         className="btn-icon btn-round"
                                         color="twitter"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/vincent8540"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
-                                    <Button
+                                    {/* <Button
                                         className="btn-icon btn-round ml-1"
                                         color="linkedin"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://www.linkedin.com/in/ziyao-zhou-57b41485/"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-linkedin" />
-                                    </Button>
+                                    </Button> */}
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="discord"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://discord.gg/6nPBkTxcGU"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-discord" />
                                     </Button>
@@ -319,7 +262,7 @@ const TeamPageContent = () => {
                         </Card>
                     </Col>
                     <Col className="ml-auto mr-auto" lg="4" md="6">
-                        <Card className="card-profile profile-bg">
+                        <Card className="card-profile profile-bg" style={{height:"600px"}}>
                             <CardHeader
                                 style={{
                                     backgroundImage:
@@ -348,40 +291,28 @@ const TeamPageContent = () => {
                                 </p>
                             </CardBody>
                             <CardFooter>
-                                <div className="follow float-left">
-                                    <Button
-                                        className="btn-simple"
-                                        color="primary"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                        size="sm"
-                                    >
-                                        <i className="tim-icons icon-check-2 mr-1" />
-                                        Following
-                                    </Button>
-                                </div>
                                 <div className="d-inline float-right">
                                     <Button
                                         className="btn-icon btn-round"
                                         color="twitter"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/brandon_liu_bc"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="linkedin"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://www.linkedin.com/in/brandon-liu-33b45585/"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-linkedin" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="discord"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://discord.gg/6nPBkTxcGU"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-discord" />
                                     </Button>
@@ -390,7 +321,7 @@ const TeamPageContent = () => {
                         </Card>
                     </Col>
                     <Col className="ml-auto mr-auto" lg="4" md="6">
-                        <Card className="card-profile profile-bg">
+                        <Card className="card-profile profile-bg" style={{height:"600px"}}>
                             <CardHeader
                                 style={{
                                     backgroundImage:
@@ -419,40 +350,28 @@ const TeamPageContent = () => {
                                 </p>
                             </CardBody>
                             <CardFooter>
-                                <div className="follow float-left">
-                                    <Button
-                                        className="btn-simple"
-                                        color="primary"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                        size="sm"
-                                    >
-                                        <i className="tim-icons icon-check-2 mr-1" />
-                                        Following
-                                    </Button>
-                                </div>
                                 <div className="d-inline float-right">
-                                    <Button
+                                    {/* <Button
                                         className="btn-icon btn-round"
                                         color="twitter"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/MichaelZhou10"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-twitter" />
-                                    </Button>
+                                    </Button> */}
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="linkedin"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://www.linkedin.com/in/wadekuo/"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-linkedin" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-round ml-1"
                                         color="discord"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://discord.gg/6nPBkTxcGU"
+                                        target="_blank"
                                     >
                                         <i className="fab fa-discord" />
                                     </Button>
@@ -463,6 +382,8 @@ const TeamPageContent = () => {
                 </Row>
             </Container>
         </div>
+        <LandingPageFooter />
+        </>
     )
 }
 export default TeamPageContent;
