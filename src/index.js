@@ -37,7 +37,7 @@ import CheckoutPage from "views/examples/CheckoutPage.js";
 import ChatPage from "views/examples/ChatPage.js";
 
 import Landing from "./VirtualDynamicLanding/LandingPage/Landing";
-import WhitePaper from "./VirtualDynamicLanding/WhitePaper";
+import WhitePaper from "./VirtualDynamicLanding/WhitePaper/WhitePaper";
 import TeamPageContent from "./VirtualDynamicLanding/TeamPage/TeamPageContent";
 
  
