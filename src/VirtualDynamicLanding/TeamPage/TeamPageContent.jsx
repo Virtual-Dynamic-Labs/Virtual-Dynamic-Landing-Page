@@ -1,20 +1,13 @@
 import React from "react";
 import LandingPageNavbar from "../LandingPage/LandingPageNavbar";
+import LandingPageFooter from "../LandingPage/LandingPageFooter";
 import {
-    Badge,
     Button,
     Card,
     CardHeader,
     CardBody,
     CardFooter,
     CardTitle,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    UncontrolledDropdown,
-    ListGroupItem,
-    ListGroup,
-    Table,
     Container,
     Row,
     Col,
@@ -388,7 +381,9 @@ const TeamPageContent = () => {
                     </Col>
                 </Row>
             </Container>
-        </div></>
+        </div>
+        <LandingPageFooter />
+        </>
     )
 }
 export default TeamPageContent;

@@ -1,6 +1,7 @@
 import React from "react";
 import {useState} from 'react';
 import LandingPageNavbar from "../LandingPage/LandingPageNavbar";
+import LandingPageFooter from "../LandingPage/LandingPageFooter";
 import background from "../LandingPage/Images/metaverse.jpg";
 
 const getWindowSize = () => {
@@ -22,6 +23,7 @@ const WhitePaper = () => {
                 <iframe title="white_paper_link" src="https://docs.google.com/document/d/e/2PACX-1vS-kIkhtOeANBcCW_LVLNr6TifEzAZP3ASNAeRnM5TXIR29ndaQeHt-XNKmfOCUG5j7qgXlH7RMoPyI/pub?embedded=true" width="800" height={googleDocHeight} frameborder="1px" ></iframe>
             </div>
         </div>
+        <LandingPageFooter />
         </>
     )
 }
