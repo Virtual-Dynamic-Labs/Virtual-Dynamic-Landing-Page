@@ -17,9 +17,9 @@ const LandingPageContent = () => {
             <strong style={{ color: "#F77E21" }}>Metaverse as a Service</strong><br />
           </h1>
           <p className="description">
-          Virtual Dynamic SDK is a set of tools deveoped for our beloved metaverse content creators to deploy their 3D virtual assets into 
-          the Open Metaverse games.The SDK and its MaaS enable the cross verse functionalities of all the virtual items and build a real 
-          decentralized Open Metaverse.
+          Virtual Dynamic SDK is a set of tools developed for metaverse content creators to create and deploy their 3D virtual assets into 
+          the Open Metaverse games. The MaaS infrastructure behind Virtual Dynamic SDK enables the cross verse functionalities of all the virtual items 
+          and build a real decentralized Open Metaverse.
           </p>
           {/* <Row className="row-input">
             <Col className="mt-1" sm="8" xs="12">
