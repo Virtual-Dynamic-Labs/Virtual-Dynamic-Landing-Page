@@ -154,7 +154,7 @@ const TeamPageContent = () => {
                             </CardHeader>
                             <CardBody>
                                 <CardTitle tag="h3">Allen Chang</CardTitle>
-                                <h6 className="category text-primary">Game Design & Web3 Developer</h6>
+                                <h6 className="category text-primary">Game Designer & Web3 Developer</h6>
                             </CardBody>
                             <CardFooter>
                                 <div className="d-inline float-right">
@@ -264,7 +264,7 @@ const TeamPageContent = () => {
                             </CardHeader>
                             <CardBody>
                                 <CardTitle tag="h3">Vincent Li</CardTitle>
-                                <h6 className="category text-primary">Product Advisor & Community Contributor</h6>
+                                <h6 className="category text-primary">SDK Designer & Developer</h6>
                             </CardBody>
                             <CardFooter>
                                 <div className="d-inline float-right">
