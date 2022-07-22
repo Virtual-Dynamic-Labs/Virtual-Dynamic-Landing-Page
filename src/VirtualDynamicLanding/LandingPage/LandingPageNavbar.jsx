@@ -105,6 +105,11 @@ export default function LandingPageNavbar() {
                   White Paper
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink to="/deck" tag={Link}>
+                  Deck
+                </NavLink>
+              </NavItem>
             </Nav>
             <NavBarSocial />
           </UncontrolledCollapse>

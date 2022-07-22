@@ -39,6 +39,7 @@ import ChatPage from "views/examples/ChatPage.js";
 import Landing from "./VirtualDynamicLanding/LandingPage/Landing";
 import WhitePaper from "./VirtualDynamicLanding/WhitePaper/WhitePaper";
 import TeamPageContent from "./VirtualDynamicLanding/TeamPage/TeamPageContent";
+import Deck from "./VirtualDynamicLanding/Deck/Deck";
 
  
 ReactDOM.render(
@@ -50,6 +51,7 @@ ReactDOM.render(
       }
       {/* WP example: https://docs.ryukaitempest.com/who-we-are/meet-the-team */}
       <Route path="/whitepaper" render={() => <WhitePaper /> } />
+      <Route path="/deck" render={() => <Deck /> } />
       <Route path="/team" render={() => <TeamPageContent /> } />
       <Route path = "/" render = {() => <Landing />} />
       <Route path = "/index" render = {() => <Landing />} />

@@ -288,52 +288,6 @@ const TeamPageContent = () => {
                             </CardFooter>
                         </Card>
                     </Col>
-                    <Col className="ml-auto mr-auto" lg="4" md="6">
-                        <Card className="card-profile profile-bg" style={{height:"400px"}}>
-                            <CardHeader
-                                style={{
-                                    backgroundImage:
-                                        "url(" +
-                                        require("assets/img/darken-night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png").default +
-                                        ")",
-                                }}
-                            >
-                                <div className="card-avatar">
-                                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                                        <img
-                                            alt="..."
-                                            className="img img-raised"
-                                            src={require("VirtualDynamicLanding/TeamPage/images/wade-kuo.jpeg").default}
-                                        />
-                                    </a>
-                                </div>
-                            </CardHeader>
-                            <CardBody>
-                                <CardTitle tag="h3">Wade Kuo</CardTitle>
-                                <h6 className="category text-primary">Marketing Advisor & Developer</h6>
-                            </CardBody>
-                            <CardFooter>
-                                <div className="d-inline float-right">
-                                    <Button
-                                        className="btn-icon btn-round ml-1"
-                                        color="linkedin"
-                                        href="https://www.linkedin.com/in/wadekuo/"
-                                        target="_blank"
-                                    >
-                                        <i className="fab fa-linkedin" />
-                                    </Button>
-                                    <Button
-                                        className="btn-icon btn-round ml-1"
-                                        color="discord"
-                                        href="https://discord.gg/6nPBkTxcGU"
-                                        target="_blank"
-                                    >
-                                        <i className="fab fa-discord" />
-                                    </Button>
-                                </div>
-                            </CardFooter>
-                        </Card>
-                    </Col>
                 </Row>
             </Container>
         </div>
