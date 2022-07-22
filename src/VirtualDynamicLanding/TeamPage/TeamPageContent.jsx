@@ -100,7 +100,7 @@ const TeamPageContent = () => {
                             </CardHeader>
                             <CardBody>
                                 <CardTitle tag="h3">Liana Lei, MBA</CardTitle>
-                                <h6 className="category text-primary">CMO & COO</h6>
+                                <h6 className="category text-primary">COO</h6>
                             </CardBody>
                             <CardFooter>
                                 <div className="d-inline float-right">
